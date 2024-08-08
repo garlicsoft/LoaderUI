@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
   s.visionos.deployment_target = '1.0'
   s.source   = { :git => "https://github.com/garlicsoft/LoaderUI.git", :tag => s.version }
-  s.source_files = "Source/*.swift"
+  s.source_files = "Sources/*.swift"
 end
